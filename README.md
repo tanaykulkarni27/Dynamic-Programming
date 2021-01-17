@@ -7,3 +7,4 @@ Given weights and values of n items, put these items in a knapsack of capacity W
 <hr>
 3. <a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/knap.py"> Can Sum Problem</a><br>
 Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with sum equal to given sum. 
+<hr>
