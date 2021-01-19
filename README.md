@@ -1,4 +1,5 @@
 # Dynamic-Programming
+<body bgcolor="green">
  <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/longest%20subarray.py">1. Longest Subarray Problem </a> </h1> <br>
 Find the longest sorted subarray in the given array
 <hr>
@@ -8,3 +9,4 @@ Given weights and values of n items, put these items in a knapsack of capacity W
 <h1> <a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/knap.py"> 3. Can Sum Problem </a>  </h1> <br>
 Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with sum equal to given sum. 
 <hr>
+  </body>
