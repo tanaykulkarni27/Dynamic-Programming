@@ -4,33 +4,24 @@ def read_int_arr():
     return [int(i) for i in input().split()]
 def read_str_arr():
     return [i for i in input().split()]
-# using Memoization
-def can_sum(current_sum,target,arr,index,memo):
-    tt = memo.get((index,current_sum))
-    if tt!= None:
-        return tt
-    if target == current_sum:
-        return True
-    elif (target<current_sum or target>current_sum) and index>=len(arr):
-        return False
-    else:
-        temp = can_sum(current_sum,target,arr,index+1,memo)#Excluding current sum
-        memo[(index+1,current_sum)] = temp
-        if current_sum+arr[index]<=target:
-            temp_2 = can_sum(current_sum+arr[index],target,arr,index+1,memo)
-            memo[(index+1,current_sum+arr[index])] = temp_2
-        else:
-            temp_2 = False
-        if temp:
-            return True
-        elif temp_2:
-            return True
-        else:
-            return False
 def solve():
-    target = read_int()
+    n,sum = read_int_arr()
     arr = read_int_arr()
-    return  can_sum(0,target,arr,0,dict())
+    dp = [[False for i in range(sum+1)] for i in range(n+1)]
+    for i in range(n+1):
+        for j in range(sum+1):
+            if i == 0:
+                dp[i][j] = False
+            if j == 0:
+                dp[i][j] = True
+            elif arr[i-1]<=j:
+                if dp[i-1][j-arr[i-1]]:
+                    dp[i][j] =  dp[i-1][j-arr[i-1]]
+                else:
+                    dp[i][j] = dp[i-1][j]
+            else:
+                dp[i][j] = dp[i-1][j]
+    return dp[n][sum]
 t = read_int()
 for _ in range(1,t+1):
     ans = solve()
@@ -38,6 +29,6 @@ for _ in range(1,t+1):
     print(ans)
 '''
 1
-7
-5 3 4 7
+3 14
+2 3 7 8 10
 '''
