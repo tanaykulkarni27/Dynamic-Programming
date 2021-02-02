@@ -15,5 +15,5 @@ Given weights and values of n items, put these items in a knapsack of capacity W
 <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/part.py">Equal Sum Partition Problem</a></h1>
 determine whether a given set can be partitioned into two subsets such that the sum of elements in both subsets is the same.
 <hr>
-  <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/is_power.py">Mathmatical Prompt</a></h1>
+  <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/is_power.py">Mathematical Prompt</a></h1>
   <p>Find the given no is power of 2 or not</p>
