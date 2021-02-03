@@ -24,3 +24,6 @@ determine whether a given set can be partitioned into two subsets such that the 
   </p>
   <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/binomial.py">Binomial Coefficient</a></h1>
   
+<p>
+    <a href="https://www.geeksforgeeks.org/binomial-coefficient-dp-9/">Learn in Detail</a>
+</p>
