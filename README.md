@@ -22,6 +22,7 @@ determine whether a given set can be partitioned into two subsets such that the 
   <p>
    Given a gold mine of n*m dimensions. Each field in this mine contains a positive integer which is the amount of gold in tons. Initially the miner is at first column but can be at any row. He can move only (right->,right up /,right down\) that is from a given cell, the miner can move to the cell diagonally up towards the right or right or diagonally down towards the right. Find out maximum amount of gold he can collect.
   </p>
+  <hr>
   <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/binomial.py">Binomial Coefficient</a></h1>
   
 <p>
