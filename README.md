@@ -18,7 +18,7 @@ determine whether a given set can be partitioned into two subsets such that the 
   <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/is_power.py">Mathematical Prompt</a></h1>
   <p>Find the given no is power of 2 or not</p>
 <hr>
-  <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/is_power.py">Gold Mine Problem</a></h1>
+  <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/gold_mine.py">Gold Mine Problem</a></h1>
   <p>
    Given a gold mine of n*m dimensions. Each field in this mine contains a positive integer which is the amount of gold in tons. Initially the miner is at first column but can be at any row. He can move only (right->,right up /,right down\) that is from a given cell, the miner can move to the cell diagonally up towards the right or right or diagonally down towards the right. Find out maximum amount of gold he can collect.
   </p>
