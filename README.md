@@ -28,3 +28,9 @@ determine whether a given set can be partitioned into two subsets such that the 
 <p>
     <a href="https://www.geeksforgeeks.org/binomial-coefficient-dp-9/">Learn in Detail</a>
 </p>
+ <hr>
+  <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/permute.py">Permutation Coefficient</a></h1>
+  
+<p>
+    <a href="https://www.geeksforgeeks.org/permutation-coefficient/">Learn in Detail</a>
+</p>
