@@ -34,3 +34,9 @@ determine whether a given set can be partitioned into two subsets such that the 
 <p>
     <a href="https://www.geeksforgeeks.org/permutation-coefficient/">Learn in Detail</a>
 </p>
+<hr>
+ <h1><a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/stairs.cpp">Stairs Problem</a></h1>
+  
+<p>
+    Their are n stairs and your are allowed to take k stairs at a time find the number of ways to climb stairs correctly
+</p>
