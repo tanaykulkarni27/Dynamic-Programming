@@ -40,3 +40,7 @@ determine whether a given set can be partitioned into two subsets such that the 
 <p>
     Their are n stairs and your are allowed to take k stairs at a time find the number of ways to climb stairs correctly
 </p>
+<h1> Coin change (minimum) </h1>
+<p>
+given n coins of different values and a value, find the minimum number of coins that will sum upto given value (repeation of coins is allowed )
+</p>
