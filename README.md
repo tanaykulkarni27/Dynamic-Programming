@@ -44,7 +44,7 @@ determine whether a given set can be partitioned into two subsets such that the 
 <p>
 given n coins of different values and a value, find the minimum number of coins that will sum upto given value (repeation of coins is allowed )
 </p>
-<h1> <a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/coin_ways.cpp">Coin change (minimum) </a> </h1>
+<h1> <a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/coin_ways.cpp">Coin change (ways) </a> </h1>
 <p>
 	coin problem where our task is to
 	calculate the total number of ways to produce a sum x using the coins. For
