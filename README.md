@@ -50,5 +50,5 @@ given n coins of different values and a value, find the minimum number of coins 
 	calculate the total number of ways to produce a sum x using the coins. For
 	example, if coins = {1,3,4} and x = 5, there are a total of 6 ways:
 </p>
-<h1> <a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/paths_in_grid.cpp">Paths in Grid</a> </h1>
-<h1> <a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/longest_common_subsequence.cp">Longest Common Subsequnce</a></h1>
+<h1> <a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/path_in_grid.cpp">Paths in Grid</a> </h1>
+<h1> <a href="https://github.com/tanaykulkarni27/Dynamic-Programming/blob/main/longest_common_subsequence.cpp">Longest Common Subsequnce</a></h1>
